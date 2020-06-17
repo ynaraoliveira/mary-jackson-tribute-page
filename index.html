@@ -1,70 +1,54 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<style>
-  #main {
-    text-align: center;
-  }
-    #title {
-      font-size: 60px;
-      font-family: Helvetica;
-    }
-    h2 {
-      font-size: 32px;
-    }
-    div {
-      text-align: center;
-      font-size: 20px;
-      line-height: 32px;
-    }
-    #image {
-      border-color: white;
-      border-width: 50px;
-      border-style: solid;
-      width: 600px;
-      lenght: 400px;
-      text-align: center;
-      max-width: 100%;
-      height: auto;
-    }
-  #tribute-info {
-    text-align: center;
-    font-size: ;
-  }
-    .background {
-      background-color: #e6e6e6;
-    }
-  </style>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-<div id="main">
-  <br><h1 id="title">Mary Jackson</h1>
-  <h2>A star at NASA</h2>
-  
-  <div class="background">
-<br><figure>  
-<img id="image" src="https://www.nasa.gov/sites/default/files/thumbnails/image/lrc-1977-b701_p-04106_0.jpg" alt="Mary Jackson working at NASA.">
-  <p id="img-caption">Mary Jackson working as an engineer at NASA.</p>
-    </figure>
- 
-  
-  <br><h3>Check out bellow some information about her:</h3>
-  
-  <p id="tribute-info">
-    <b>1921</b> - Born in Hamptom, Virginia;<br>
-    <b>1942</b> - Earned bachelor's degree in mathematics and physicial science from Hamptom University;<br>
-    <b>1944</b> - Married to Levi Jackson, a sailor in the US Navy, and had two children;<br>
-    <b>1951</b> - Started as a computer at the segregated West Area Computing Division;<br>
-    <b>1953</b> - Accepted an offer to work for engineer Kazimierz Czarnecki in the Supersonic Pressure Tunnel;<br>
-    <b>1954</b> - Petitioned the City of Hampton to allow her to attend classes at University of Virginia, held at the all-white Hampton High School;<br>
-    <b>1958</b> - Became NASA's first African-American female engineer;<br>
-    <b>1969</b> - Awarded Apollo Group Achievement;<br>
-    <b>1970's</b> - Noted for helping African-American children in her community create a miniature wind tunnel for testing airplanes;<br>
-    <b>1979</b> - Achieved the most senior title within the engineering department;<br>
-    <b>2005</b> - Dies at age of 83.<br>
-    <p>Posthumous</p>
-    <b>2016</b> - She was featured in the book <i>Hidden Figure: the American Dream and the Untold Story of the Black Women Who Helped Win the Space Race,</i> which later became a movie;<br>
-    <b>2019</b> - Was awarded the Congressional Gold Medal.<br></p>
-    
-    <p><i>"Sometimes they [youngsters from the science club] are not aware of the number of black scientists, and don't even know of the career oportunities until it is too late."</i></p>
-    <p>Mary Jackson</p><br>
-    
-   <p><a id="tribute-link" target="_blank" href="https://www.nasa.gov/content/mary-jackson-biography">Click here</a> for more information about this incredible scientist.</p></div>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <title>Mary Jackson</title>
+  <link rel="icon" href="favicon_io/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Caveat+Brush&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body id="main">
+  <div>
+    <h1 id="title">Mary Jackson</h1>
+    <h2>A Star at NASA</h2>
+  </div>
+
+  <div id="img-div">
+    <img id="image" src="images/mary_jackson.jpg" alt="Mary Jackson working at NASA.">
+    <p id="img-caption">Mary Jackson working as an engineer at NASA.</p>
+  </div>
+  <div id="tribute-info">
+    <h3>Check out bellow some information about her:</h3>
+    <ul>
+      <li><strong>1921</strong> - Born in Hamptom, Virginia</li>
+      <li><strong>1942</strong> - Earned bachelor's degree in mathematics and physicial science from Hamptom University</li>
+      <li><strong>1944</strong> - Married to Levi Jackson, a sailor in the US Navy, and had two children</li>
+      <li><strong>1951</strong> - Started as a computer at the segregated West Area Computing Division</li>
+      <li><strong>1953</strong> - Accepted an offer to work for engineer Kazimierz Czarnecki in the Supersonic Pressure Tunnel</li>
+      <li><strong>1954</strong> - Petitioned the City of Hampton to allow her to attend classes at University of Virginia, held at the all-white Hampton High School</li>
+      <li><strong>1958</strong> - Became NASA's first African-American female engineer</li>
+      <li><strong>1969</strong> - Awarded Apollo Group Achievement</li>
+      <li><strong>1970's</strong> - Noted for helping African-American children in her community create a miniature wind tunnel for testing airplanes</li>
+      <li><strong>1979</strong> - Achieved the most senior title within the engineering department</li>
+      <li><strong>2005</strong> - Dies at age of 83</li>
+      <h4>Posthumous</h4>
+      <li><strong>2016</strong> - She was featured in the book <em>Hidden Figure: the American Dream and the Untold Story of the Black Women Who Helped Win the Space Race,</em> which later became a movie</li>
+      <li><strong>2019</strong> - Awarded the Congressional Gold Medal</li>
+    </ul>
+  </div>
+  <hr>
+  <div class="quote">
+    <p>"Sometimes they [youngsters from the science club] are not aware of the number of black scientists, and don't even know of the career oportunities until it is too late."</p>
+    <p>Mary Jackson</p>
+  </div>
+  <hr>
+  <br>
+  <div>
+    <a id="tribute-link" target="_blank" href="https://www.nasa.gov/content/mary-jackson-biography/">Click here for more information about this incredible scientist.</a>
+  </div>
+
+</body>
+
+</html>
